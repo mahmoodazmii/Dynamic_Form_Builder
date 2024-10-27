@@ -1,0 +1,136 @@
+/* FormBuilder.css */
+
+.form-builder-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-builder-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3c4043;
+    margin-bottom: 20px;
+}
+
+.form-builder-container label {
+    font-weight: 500;
+    color: #5f6368;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.2s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #4285f4;
+}
+
+.add-field-buttons {
+    margin-bottom: 20px;
+}
+
+.add-field-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-field-buttons button:hover {
+    background-color: #357ae8;
+}
+
+.field-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.field-container:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.field-container label {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.field-container input[type="text"],
+.field-container input[type="checkbox"] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option-container button {
+    margin-left: 10px;
+    background-color: #ea4335;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.option-container button:hover {
+    background-color: #d93025;
+}
+
+.save-button {
+    padding: 12px 25px;
+    background-color: #34a853;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #2c8c45;
+}
+
+@media (max-width: 768px) {
+    .form-builder-container {
+        padding: 15px;
+    }
+
+    .form-input,
+    .form-textarea {
+        width: 100%;
+    }
+}
